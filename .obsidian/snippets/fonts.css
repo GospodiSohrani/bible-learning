@@ -29,6 +29,29 @@ body .church-sheet .church > sup {
     display: unset;
 }
 
+body .church + * {
+    --embed-border-start: none;
+    --embed-padding: none;
+    --embed-border-top: 1px dashed grey;
+}
+
+body .church + * .transcript {
+    padding: 0;
+    margin: 0;
+}
+
+
+body .church + * .transcript p {
+    padding: 0;
+    margin: 0;
+}
+
+body p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
 body .transcript >sup {
     display: none;
 }
@@ -50,25 +73,6 @@ body .transcript {
     overflow: hidden;
     display: inline-block;
 }
-
-body .church + * {
-    --embed-border-start: none;
-    --embed-padding: none;
-    --embed-border-top: 1px dashed grey;
-}
-
-body .church + * .transcript {
-    padding: 0;
-    margin: 0;
-}
-
-
-body .church + * .transcript p {
-    padding: 0;
-    margin: 0;
-
-}
-
 
 body {
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Евагнелие_от_Матфея/Глава_2.md",
+                "file": "Евагнелие_от_Матфея/Глава_1.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Глава_2"
+              "title": "Глава_1"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Евагнелие_от_Матфея/Глава_2.md",
+            "file": "Евагнелие_от_Матфея/Глава_1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Евагнелие_от_Матфея/Глава_2.md",
+            "file": "Евагнелие_от_Матфея/Глава_1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -131,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Евагнелие_от_Матфея/Глава_2.md",
+            "file": "Евагнелие_от_Матфея/Глава_1.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -155,6 +155,7 @@
   },
   "active": "c4ac746242220943",
   "lastOpenFiles": [
+    "Евагнелие_от_Матфея/Глава_2.md",
     "Евагнелие_от_Матфея/Глава_1.md",
     "Евагнелие_от_Матфея/Славянский/Транскрипт/Глава_1.md"
   ]
