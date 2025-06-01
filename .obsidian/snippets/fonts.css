@@ -1,6 +1,75 @@
+@font-face {
+    src:    url('https://raw.githubusercontent.com/GospodiSohrani/bible-learning/refs/heads/trunk/.obsidian/snippets/Monomakh-Regular.otf') format('opentype'),
+            url('https://raw.githubusercontent.com/GospodiSohrani/bible-learning/refs/heads/trunk/.obsidian/snippets/Monomakh-Regular.ttf') format('truetype');
+    font-family: 'MonomakhD';
+}
+@font-face {
+    src:    url(' https://raw.githubusercontent.com/GospodiSohrani/bible-learning/refs/heads/trunk/.obsidian/snippets/Ponomar-Regular.otf') format('opentype'),
+            url('https://raw.githubusercontent.com/GospodiSohrani/bible-learning/refs/heads/trunk/.obsidian/snippets/Ponomar-Regular.ttf') format('truetype');
+    font-family: 'PonomarD';
+}
+
+
 body .church {
-    font-family: "Ponomar", "Monomakh", Times;
+    font-family: PonomarD, MonomakhD;
     font-size: 1.3em;
     font-weight: 400;
     font-style: normal;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+}
+
+body .church >sup {
+    display: none;
+}
+
+
+body .church-sheet .church > sup {
+    display: unset;
+}
+
+body .transcript >sup {
+    display: none;
+}
+
+body .transc-sheet .transcript > sup {
+    display: unset;
+}
+
+body .transcript-sheet .transcript {
+    display: unset;
+}
+
+body .transcript {
+    font-family: PonomarD, MonomakhD;
+    font-size: 1.3em;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+}
+
+body .church + * {
+    --embed-border-start: none;
+    --embed-padding: none;
+    --embed-border-top: 1px dashed grey;
+}
+
+body .church + * .transcript {
+    padding: 0;
+    margin: 0;
+}
+
+
+body .church + * .transcript p {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+
 }

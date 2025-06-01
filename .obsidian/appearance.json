@@ -1,5 +1,7 @@
 {
   "enabledCssSnippets": [
     "fonts"
-  ]
+  ],
+  "theme": "system",
+  "accentColor": "#ff9b0f"
 }
